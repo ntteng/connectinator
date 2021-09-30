@@ -1,0 +1,24 @@
+site_name: Connectinator
+
+
+theme:
+  name: material
+
+markdown_extensions:
+  - admonition
+  - pymdownx.tabbed
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.snippets:
+      base_path: docs/
+
+
+copyright: Copyright &copy; 2021 West Davaneel
+
+extra_css:
+  - css/termynal.css
+
+extra_javascript:
+  - js/termynal.js
+  - js/forms.js
+  - js/custom.js
